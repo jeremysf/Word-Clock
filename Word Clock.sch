@@ -671,22 +671,22 @@ Standard 8.5x11 US Letter frame</description>
 <library name="KWM-30881XVB">
 <packages>
 <package name="KWM-30881CVB">
-<pad name="13" x="-1.27" y="12" drill="0.8" rot="R90"/>
-<pad name="14" x="-3.81" y="12" drill="0.8" rot="R90"/>
-<pad name="15" x="-6.35" y="12" drill="0.8" rot="R90"/>
-<pad name="16" x="-8.89" y="12" drill="0.8" rot="R90"/>
-<pad name="12" x="1.27" y="12" drill="0.8" rot="R90"/>
-<pad name="11" x="3.81" y="12" drill="0.8" rot="R90"/>
-<pad name="10" x="6.35" y="12" drill="0.8" rot="R90"/>
-<pad name="9" x="8.89" y="12" drill="0.8" rot="R90"/>
-<pad name="4" x="-1.27" y="-12" drill="0.8" rot="R90"/>
-<pad name="3" x="-3.81" y="-12" drill="0.8" rot="R90"/>
-<pad name="2" x="-6.35" y="-12" drill="0.8" rot="R90"/>
-<pad name="1" x="-8.89" y="-12" drill="0.8" rot="R90"/>
-<pad name="5" x="1.27" y="-12" drill="0.8" rot="R90"/>
-<pad name="6" x="3.81" y="-12" drill="0.8" rot="R90"/>
-<pad name="7" x="6.35" y="-12" drill="0.8" rot="R90"/>
-<pad name="8" x="8.89" y="-12" drill="0.8" rot="R90"/>
+<pad name="13" x="-1.27" y="12" drill="1" rot="R90"/>
+<pad name="14" x="-3.81" y="12" drill="1" rot="R90"/>
+<pad name="15" x="-6.35" y="12" drill="1" rot="R90"/>
+<pad name="16" x="-8.89" y="12" drill="1" rot="R90"/>
+<pad name="12" x="1.27" y="12" drill="1" rot="R90"/>
+<pad name="11" x="3.81" y="12" drill="1" rot="R90"/>
+<pad name="10" x="6.35" y="12" drill="1" rot="R90"/>
+<pad name="9" x="8.89" y="12" drill="1" rot="R90"/>
+<pad name="4" x="-1.27" y="-12" drill="1" rot="R90"/>
+<pad name="3" x="-3.81" y="-12" drill="1" rot="R90"/>
+<pad name="2" x="-6.35" y="-12" drill="1" rot="R90"/>
+<pad name="1" x="-8.89" y="-12" drill="1" rot="R90"/>
+<pad name="5" x="1.27" y="-12" drill="1" rot="R90"/>
+<pad name="6" x="3.81" y="-12" drill="1" rot="R90"/>
+<pad name="7" x="6.35" y="-12" drill="1" rot="R90"/>
+<pad name="8" x="8.89" y="-12" drill="1" rot="R90"/>
 <wire x1="-16" y1="14" x2="-16" y2="16" width="0.127" layer="21"/>
 <wire x1="-16" y1="16" x2="-14" y2="16" width="0.127" layer="21"/>
 <wire x1="14" y1="16" x2="16" y2="16" width="0.127" layer="21"/>
@@ -4140,7 +4140,7 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <instance part="Q1" gate="G$1" x="60.96" y="25.4"/>
 <instance part="GND12" gate="1" x="63.5" y="12.7"/>
 <instance part="SUPPLY5" gate="G$1" x="101.6" y="58.42"/>
-<instance part="JP3" gate="G$1" x="116.84" y="45.72" rot="R180"/>
+<instance part="JP3" gate="G$1" x="127" y="40.64" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -4583,9 +4583,11 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <wire x1="88.9" y1="45.72" x2="78.74" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="45.72" x2="78.74" y2="40.64" width="0.1524" layer="91"/>
 <junction x="88.9" y="45.72"/>
-<wire x1="101.6" y1="45.72" x2="109.22" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="45.72" x2="116.84" y2="45.72" width="0.1524" layer="91"/>
 <junction x="101.6" y="45.72"/>
+<wire x1="116.84" y1="45.72" x2="116.84" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="40.64" x2="119.38" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$29" class="0">
@@ -4594,16 +4596,16 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <wire x1="63.5" y1="30.48" x2="63.5" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="33.02" x2="78.74" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="33.02" x2="88.9" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="33.02" x2="106.68" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="33.02" x2="116.84" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="78.74" y1="33.02" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
 <junction x="78.74" y="33.02"/>
 <pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="88.9" y1="33.02" x2="88.9" y2="35.56" width="0.1524" layer="91"/>
 <junction x="88.9" y="33.02"/>
-<wire x1="106.68" y1="33.02" x2="106.68" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="33.02" x2="116.84" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="G$1" pin="2"/>
-<wire x1="109.22" y1="43.18" x2="106.68" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="38.1" x2="119.38" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
