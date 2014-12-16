@@ -6,3 +6,15 @@
 *.job
 *.scr
 *.pro
+*.mnt
+.DS_Store
+*.cmp
+*.crc
+*.dri
+*.gpi
+*.mnb
+*.ncl
+*.tmp
+*.sol
+*.drd
+
